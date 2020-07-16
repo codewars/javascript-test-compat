@@ -1,0 +1,30 @@
+{
+  "name": "@codewars/test-compat",
+  "version": "1.0.0",
+  "description": "Provides functions from the deprecated custom test framework",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "repository": "https://github.com/codewars/javascript-test-compat",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "peerDependencies": {
+    "chai": ">=4.x"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "chai": "^4.2.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "typescript": "^3.9.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
