@@ -9,6 +9,8 @@ export const assertEquals = assert.strictEqual;
 export const assertNotEquals = assert.notStrictEqual;
 export const assertContains = assert.include;
 export const assertNotContains = assert.notInclude;
+export const assertDeepEquals = assert.deepEqual;
+export const assertNotDeepEquals = assert.notDeepEqual;
 
 export const assertSimilar = (actual: any, expected: any, msg?: any) => {
   console.error(`assertSimilar is deprecated, use assert.deepEqual`);
