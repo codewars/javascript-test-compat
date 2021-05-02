@@ -1,6 +1,6 @@
 {
   "name": "@codewars/test-compat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides functions from the deprecated custom test framework",
   "main": "lib/index.js",
   "files": [
