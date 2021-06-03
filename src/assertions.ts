@@ -2,6 +2,9 @@
 import chai from "chai";
 const assert = chai.assert;
 
+// Disable truncating actual and expected in assertion errors.
+chai.config.truncateThreshold = 0;
+
 export const pass = () => {};
 export const fail = assert.fail;
 export const expect = assert;
